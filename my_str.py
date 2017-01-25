@@ -50,4 +50,4 @@ class MyStr(str) : #<-----Replace xyz-make a new class, MyStr, that inherits fro
         #YOUR CODE BELOW:
         #################
         str_lower_case = self.lower()
-        return str_lower_case.reeplace(take_out.lower(), use_this)
+        return str_lower_case.replace(take_out.lower(), use_this)
